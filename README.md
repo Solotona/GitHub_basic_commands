@@ -15,29 +15,6 @@ Mobile_testing
 
 4. В ветке Bug_Reports сделать текстовый документ со структурой баг репорта
 **git checkout Bug_report && cat > Bug_Report.txt**
-id: BR-1,
-Summary: Кнопка Отправить не реагирует на клик на странице оформления заказа.,
-Project: www.test.pitomets.com,
-Version: 5.1,
-Severity: Critical,
-Priority: Middle,
-	Status: Open,
-	Author: Tokareva Natalia,
-	Assigned To: Lead Developer,
-	Description: 
-		Precondition: 
-			1: Зайти на сайт www.test.pitomets.com,
-			2: Перейти на страницу Питомцы
-		Environment: Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64),
-		Steps to reproduce: 
-			1: Кликнуть на кнопку Оформить заказ в карточке питомца,
-			2: Заполнить поле Имя,
-			3: Заполнить поле телефон,
-			4: Заполнить поле E-mail,
-			5: Нажать кнопку Отправить
-		Actual result: Кнопка “Отправить” в форме заказа питомца не реагирует на клик.,
-		Expected result: Пользователь перенаправляется на страницу подтверждения заказа. Есть сообщение, что заказ №#### отправлен, менеджер с вами свяжется в ближайшее время
-Attachment: https://drive.google.com/...
 
 5. Запушить структуру багрепорта на внешний репозиторий
 **git add .
