@@ -18,12 +18,7 @@ JSON<br>4.
 | 8 | Закоммитить файл          | `git commit -m "comments"`        |
 | 9 | Отправить файл на внешний GitHub репозиторий          | `git push`        |
 | 10 | Отредактировать содержимое файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.          | `nano new.json<br>
-{
-	"name": "Natalia",
-	"lastName": "Tokareva",
-	"quantityPet": 1,
-	"salaryExpected": "500 USD"
-}`        |
+{<br>"name": "Natalia",<br>	"lastName": "Tokareva",<br>	"quantityPet": 1,<br>	"salaryExpected": "500 USD" <br>}`        |
 
  
 
