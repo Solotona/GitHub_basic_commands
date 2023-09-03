@@ -62,79 +62,21 @@
 | 42 | Добавить файл под гит          | `git add new.txt`        |
 | 43  | Закоммитить файл          | `git commit -m "comments"`        |
 | 44  | Отправить файл на внешний GitHub репозиторий          | `git push`        |
-| 45  | Отредактировать содержимое файла *“new.txt”* - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.          | `cat >> new.xml` <br> cat >> new.json<br> Name: Natalia,<br> Last Name: Tokareva,<br> Quantity of Pet: 1,<br> Salary Expected: 500 USD.|
-| 28  | Отправить изменения на внешний репозиторий          | `git add ‘new.xml’ && git commit -m ’new file’ && git push`        | 
-| 29  | Создать файл *preferences.xml*          | `cat > preferences.xml`        | 
-| 30 | В файл *preferences.xml* добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML          | `cat >> preferences.xml`<br> [preferences.xml...](#30-В-файл-preferencesxml-добавить-информацию-о-своих-предпочтениях)|
-| 31  | Создать файл *skills.xml* добавить информацию о скиллах, которые будут изучены на курсе в формате XML | `nano skills.xml`    <?xml version="1.0" encoding="windows-1251"><br><SKILLS>API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна</SKILLS>        | 
-| 32  | Сделать коммит в одну строку          | `git add . && git commit -m "comment"`        | 
-| 33  | Отправить сразу 2 файла на внешний репозиторий          | `git add ./`        | 
-| 34  | На веб интерфейсе создать файл *bug_report.xml*          |         | 
-| 35  | Сделать Commit changes (сохранить) изменения на веб интерфейсе          |         | 
-| 36  | На веб интерфейсе модифицировать файл *bug_report.xml*, добавить баг репорт в формате XML.          |  [bug_report.xml...](#36-На-веб-интерфейсе-модифицировать-файл-bug_reportxml)|      | 
-| 37  | Сделать Commit changes (сохранить) изменения на веб интерфейсе          |         | 
-| 38  | Синхронизировать внешний и локальный репозиторий XML          |  `git pull`       | 
+| 45  | Отредактировать содержимое файла *“new.txt”* - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.          | `cat >> new.txt` <br> Name: Natalia,<br> Last Name: Tokareva,<br> Quantity of Pet: 1,<br> Salary Expected: 500 USD.|
+| 46  | Отправить изменения на внешний репозиторий          | `git add ‘new.txt’ && git commit -m ’new file’ && git push`        | 
+| 47  | Создать файл *preferences.txt*          | `cat > preferences.txt`        | 
+| 48 | В файл *preferences.txt* добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT          | `cat >> preferences.txt`<br> [preferences.txt...](#48-В-файл-preferencestxt-добавить-информацию-о-своих-предпочтениях)|
+| 49  | Создать файл *skills.txt* добавить информацию о скиллах, которые будут изучены на курсе в формате TXT | `nano skills.txt`<br>    Skills: тестирование API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна.        | 
+| 50  | Сделать коммит в одну строку          | `git add . && git commit -m "comment"`        | 
+| 51  | Отправить сразу 2 файла на внешний репозиторий          | `git add ./`        | 
+| 52  | На веб интерфейсе создать файл *bug_report.txt*          |         | 
+| 53  | Сделать Commit changes (сохранить) изменения на веб интерфейсе          |         | 
+| 54  | На веб интерфейсе модифицировать файл *bug_report.txt*, добавить баг репорт в формате TXT.          |  [bug_report.txt..](#54-На-веб-интерфейсе-модифицировать-файл-bug_reporttxt)|      | 
+| 55  | Сделать Commit changes (сохранить) изменения на веб интерфейсе          |         | 
+| 56  | Синхронизировать внешний и локальный репозиторий TXT          |  `git pull`       | 
 
 
 
- 
- 7. Отредактировать содержимое файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
-cat >> new.json
-Name: Natalia,
-Last Name: Tokareva,
-Quantity of Pet: 1,
-Salary Expected: 500 USD.
-
- 8. Отправить изменения на внешний репозиторий. 
-git push
-
- 9. Создать файл preferences.txt
-nano preferences.txt
-
- 10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
-nano preferences.txt
-Favorite Film: "Sea Inside",
-FavoriteSeries: "Friends",
-Favorite Food: Khinkali, Pho Bo soup, pasta,
-Favorite Season: spring, summer,
-Country: the USA.
-
- 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT.
-nano skills.txt
-Skills: тестирование API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна.
-
- 12. Сделать коммит в одну строку.
-git add . && git commit -m "comment"
-
- 13. Отправить сразу 2 файла на внешний репозиторий.
-git push
-
- 14. На веб интерфейсе создать файл bug_report.txt.
- 15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
-id: BR-1,
-Summary: Кнопка Отправить не реагирует на клик на странице оформления заказа.,
-Project: www.test.pitomets.com,
-Version: 5.1,
-Severity: Critical,
-Priority: Middle,
-	Status: Open,
-	Author: Tokareva Natalia,
-	Assigned To: Lead Developer,
-	Description: 
-		Precondition: 
-			1: Зайти на сайт www.test.pitomets.com,
-			2: Перейти на страницу Питомцы
-		Environment: Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64),
-		Steps to reproduce: 
-			1: Кликнуть на кнопку Оформить заказ в карточке питомца,
-			2: Заполнить поле Имя,
-			3: Заполнить поле телефон,
-			4: Заполнить поле E-mail,
-			5: Нажать кнопку Отправить
-		Actual result: Кнопка “Отправить” в форме заказа питомца не реагирует на клик.,
-		Expected result: Пользователь перенаправляется на страницу подтверждения заказа. Есть сообщение, что заказ №#### отправлен, менеджер с вами свяжется в ближайшее время
-Attachment: https://drive.google.com/...
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
@@ -241,6 +183,45 @@ cat >> preferences.xml
 </root>
 ```
 [Back](#XML)
+
+## 48. В файл ”preferences.txt” добавить информацию о своих предпочтениях
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+```txt
+Favorite Film: "Sea Inside",
+FavoriteSeries: "Friends",
+Favorite Food: Khinkali, Pho Bo soup, pasta,
+Favorite Season: spring, summer,
+Country: the USA.
+```
+[Back](#TXT)
+
+## 54. На веб интерфейсе модифицировать файл bug_report.txt
+добавить баг репорт в формате TXT.
+id: BR-1,
+Summary: Кнопка Отправить не реагирует на клик на странице оформления заказа.,
+Project: www.test.pitomets.com,
+Version: 5.1,
+Severity: Critical,
+Priority: Middle,
+	Status: Open,
+	Author: Tokareva Natalia,
+	Assigned To: Lead Developer,
+	Description: 
+		Precondition: 
+			1: Зайти на сайт www.test.pitomets.com,
+			2: Перейти на страницу Питомцы
+		Environment: Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64),
+		Steps to reproduce: 
+			1: Кликнуть на кнопку Оформить заказ в карточке питомца,
+			2: Заполнить поле Имя,
+			3: Заполнить поле телефон,
+			4: Заполнить поле E-mail,
+			5: Нажать кнопку Отправить
+		Actual result: Кнопка “Отправить” в форме заказа питомца не реагирует на клик.,
+		Expected result: Пользователь перенаправляется на страницу подтверждения заказа. Есть сообщение, что заказ №#### отправлен, менеджер с вами свяжется в ближайшее время
+Attachment: https://drive.google.com/...
+[Back](#TXT)
+
 
 # ------ Лекция ------
 Рекомендует создавать репозитории прямо на сайте GitHub. 
