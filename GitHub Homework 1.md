@@ -19,21 +19,17 @@
 | 9 | Отправить файл на внешний GitHub репозиторий          | `git push`        |
 | 10 | Отредактировать содержимое файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.          | `nano new.json`<br>{<br>"name": "Natalia",<br>"lastName": "Tokareva",<br>"quantityPet": 1,<br>"salaryExpected": "500 USD"<br>}        |
 | 11 | Отправить изменения на внешний репозиторий          | `git commit -a -m “new.json” && git push`        |
- 
+| 12 | Создать файл preferences.json          | `cat > preferences.json`        |
+| 13 | В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON          | `nano preferences.json`<br>
+{<br>
+	"favoriteFilm": "Sea Inside",<br>
+	"favoriteSeries": "Friends",<br>
+	"favoriteFood": ["Khinkali", "Pho Bo", "soup", "pasta"],<br>
+	"favoriteSeason": ["spring", "summer"],<br>
+	"Country": "the USA"<br>
+}<br>
+Ctrl+O, Ctrl+X      |
 
- 10. Отредактировать содержимое файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
-nano new.json
-{
-	"name": "Natalia",
-	"lastName": "Tokareva",
-	"quantityPet": 1,
-	"salaryExpected": "500 USD"
-}
-
- 11. Отправить изменения на внешний репозиторий - git commit -a -m “new.json” && git push
-
- 12. Создать файл preferences.json
-cat > preferences.json
 
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 nano preferences.json
