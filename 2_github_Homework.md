@@ -1,4 +1,4 @@
-# 2_github_Homework
+# github_Homework_2
 
 | № | Question | Answer |
 |---|:---------|:-------|
