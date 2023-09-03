@@ -2,7 +2,7 @@
 | № | Question | Answer |
 |---|:---------|:-------|
 | 1 | На локальном репозитории сделать ветки для: <br>*Postman*<br>*Jmeter*<br>*CheckLists*<br>*Bug_Reports*<br>*SQL*<br>*Charles*<br>*Mobile_testing*| **git branch**      |
-| 2 | Запушить все ветки на внешний репозиторий        | 2      |**git push -u origin Postman**
+| 2 | Запушить все ветки на внешний репозиторий        | **git push -u origin Postman** [См.](#git push)      |
 | 3 | В ветке *Bug_Reports* сделать текстовый документ со структурой баг репорта        | **git checkout Bug_report && cat > Bug_Report.txt**      |
 | 4 | В ветке *Bug_Reports* сделать текстовый документ со структурой баг репорта        | **git add .<br>git commit -m “comment”<br>git push -u origin Bug_report**     |
 | 5 | Вмержить ветку *Bag Reports* в *Main*        | **git checkout main<br>git merge Bug_Report**    |
@@ -13,6 +13,7 @@
 | 10 | Синхронизировать Внешнюю и Локальную ветки Main       | **git checkout main<br>git fetch<br>git pull**     |
 
 ## **==== Описание команд =====**
+### git push
 
 **git branch** - позволяет создавать, просматривать, переименовывать и удалять ветки. Она не дает возможности переключаться между ветками или выполнять слияние разветвленной истории. Именно поэтому команда git branch тесно связана с командами git checkout и git merge.
 
