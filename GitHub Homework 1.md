@@ -11,21 +11,21 @@
 ## JSON 
 | №  | Task  | Answer |
 |:------------- |:---------------| :-------------|
-| 4 | Создать внешний репозиторий c названием JSON.          | На сайте GitHub        |
+| 4 | Создать внешний репозиторий c названием JSON.          |  На сайте GitHub создаем новый репозиторий через New - Create Repository        |
 | 5 | Клонировать репозиторий JSON на локальный компьютер          | `git clone` <br>вставляем сюда скопированную ссылку из  <>Code по протоколу https        |
-| 6 | Внутри локального JSON создать файл “new.json”.          | `cat > new.json`        |
+| 6 | Внутри локального JSON создать файл *“new.json”*.          | `cat > new.json`        |
 | 7 | Добавить файл под гит          | `git add new.json`        |
 | 8 | Закоммитить файл          | `git commit -m "comments"`        |
 | 9 | Отправить файл на внешний GitHub репозиторий          | `git push`        |
-| 10 | Отредактировать содержимое файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.          | `nano new.json`<br>{<br>"name": "Natalia",<br>"lastName": "Tokareva",<br>"quantityPet": 1,<br>"salaryExpected": "500 USD"<br>}        |
+| 10 | Отредактировать содержимое файла *“new.json”* - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.          | `nano new.json`<br>{<br>"name": "Natalia",<br>"lastName": "Tokareva",<br>"quantityPet": 1,<br>"salaryExpected": "500 USD"<br>}        |
 | 11 | Отправить изменения на внешний репозиторий          | `git commit -a -m “new.json” && git push`        |
-| 12 | Создать файл preferences.json          | `cat > preferences.json`        |
-| 13 | В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON          | `nano preferences.json`<br>{<br>	"favoriteFilm": "Sea Inside",<br>	"favoriteSeries": "Friends",<br>	"favoriteFood": ["Khinkali", "Pho Bo", "soup", "pasta"],<br>	"favoriteSeason": ["spring", "summer"],<br>	"Country": "the USA"<br>}<br>Ctrl+O, Ctrl+X      |
-| 14 | Создать файл skills.json добавить информацию о скиллах, которые будут изучены на курсе в формате JSON          | `cat > skills.json`<br> {<br>"Skills": ["API через Postman", "сниффинг http web трафика через Charles и Fiddler", "Dev Tools веб браузеров, командная строка", "основы SQL техники тест-дизайна"]<br>}     |
+| 12 | Создать файл *preferences.json*          | `cat > preferences.json`        |
+| 13 | В файл *preferences.json* добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON          | `nano preferences.json`<br>{<br>	"favoriteFilm": "Sea Inside",<br>	"favoriteSeries": "Friends",<br>	"favoriteFood": ["Khinkali", "Pho Bo", "soup", "pasta"],<br>	"favoriteSeason": ["spring", "summer"],<br>	"Country": "the USA"<br>}<br>Ctrl+O, Ctrl+X      |
+| 14 | Создать файл *skills.json* добавить информацию о скиллах, которые будут изучены на курсе в формате JSON          | `cat > skills.json`<br> {<br>"Skills": ["API через Postman", "сниффинг http web трафика через Charles и Fiddler", "Dev Tools веб браузеров, командная строка", "основы SQL техники тест-дизайна"]<br>}     |
 | 15 | Отправить сразу 2 файла на внешний репозиторий          | `git add ./`        |
-| 16 | На веб интерфейсе создать файл bug_report.json          |         |
+| 16 | На веб интерфейсе создать файл *bug_report.json*          |         |
 | 17 | Сделать Commit changes (сохранить) изменения на веб интерфейсе.          |        |
-| 18 | На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.          | [See more...](#18-На-веб-интерфейсе-модифицировать-файл-bug_reportjson-добавить-баг-репорт-в-формате-JSON)|
+| 18 | На веб интерфейсе модифицировать файл *bug_report.json*, добавить баг репорт в формате JSON.          | [bug_report.json...](#18-На-веб-интерфейсе-модифицировать-файл-bug_reportjson-добавить-баг-репорт-в-формате-JSON)|
 | 19 | Сделать Commit changes (сохранить) изменения на веб интерфейсе       |        |
 | 20 | Синхронизировать внешний и локальный репозиторий JSON          | `git pull`   |
 
@@ -33,76 +33,49 @@
 ## XML
 | №  | Task  | Answer |
 |:------------- |:---------------| :-------------|
-| 21 | Создать внешний репозиторий c названием XML.          | На сайте GitHub        |
+| 21 | Создать внешний репозиторий c названием XML.          | На сайте GitHub создаем новый репозиторий через New - Create Repository        |
 | 22 | Клонировать репозиторий XML на локальный компьютер         | `git clone`        |
-| 23 | Внутри локального XML создать файл “new.xml”.          | `cat > new.xml`        |
+| 23 | Внутри локального XML создать файл *“new.xml”*.          | `cat > new.xml`        |
 | 24 | Добавить файл под гит          | `git add new.xml`        |
 | 25  | Закоммитить файл          | `git commit -m "comments"`        |
 | 26  | Отправить файл на внешний GitHub репозиторий          | `git push`        |
-| 27  | Отредактировать содержимое файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.          | `cat >> new.xml` <br> [See more...](#27-Отредактировать-содержимое-файла-newxml)|
+| 27  | Отредактировать содержимое файла *“new.xml”* - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.          | `cat >> new.xml` <br> [new.xml...](#27-Отредактировать-содержимое-файла-newxml)|
 | 28  | Отправить изменения на внешний репозиторий          | `git add ‘new.xml’ && git commit -m ’new file’ && git push`        | 
-| 29  | Создать файл preferences.xml          | `cat > preferences.xml`        | 
-| 30 | В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML          | `cat >> preferences.xml`<br> [See more...](#30-В-файл-preferencesxml-добавить-информацию-о-своих-предпочтениях)|
-| 31  | Создать файл skills.xml добавить информацию о скиллах, которые будут изучены на курсе в формате XML | `nano skills.xml`    <?xml version="1.0" encoding="windows-1251"><br><SKILLS>API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна</SKILLS>        | 
+| 29  | Создать файл *preferences.xml*          | `cat > preferences.xml`        | 
+| 30 | В файл *preferences.xml* добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML          | `cat >> preferences.xml`<br> [preferences.xml...](#30-В-файл-preferencesxml-добавить-информацию-о-своих-предпочтениях)|
+| 31  | Создать файл *skills.xml* добавить информацию о скиллах, которые будут изучены на курсе в формате XML | `nano skills.xml`    <?xml version="1.0" encoding="windows-1251"><br><SKILLS>API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна</SKILLS>        | 
 | 32  | Сделать коммит в одну строку          | `git add . && git commit -m "comment"`        | 
 | 33  | Отправить сразу 2 файла на внешний репозиторий          | `git add ./`        | 
-| 34  | На веб интерфейсе создать файл bug_report.xml          |         | 
+| 34  | На веб интерфейсе создать файл *bug_report.xml*          |         | 
 | 35  | Сделать Commit changes (сохранить) изменения на веб интерфейсе          |         | 
-| 36  | На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.          |  [See more...](#36-На-веб-интерфейсе-модифицировать-файл-bug_reportxml)|      | 
- 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
-<?xml version="1.0" encoding="windows-1251"?>
-<root>
-  <tree>
-   	<ID>BR-1</ID>
-   	<Summary>Кнопка Отправить не реагирует на клик на странице оформления заказа.</Summary>
-   	<Project>www.test.pitomets.com</Project>
-	<Version>5.1</Version>
-	<Severity>Critical</Severity>
-	<Priority>Middle</Priority>
-	<Status>Open</Status>
-	<Author>Tokareva Natalia</Author>
-	<AssignedTo>Lead Developer</AssignedTo>
-	<Description>
-		<Precondition>
-			<1>Зайти на сайт www.test.pitomets.com</1>
-			<2>Перейти на страницу Питомцы</2>
-		</Precondition>
-		<Environment>Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64)</Environment>
-		<Steps_to_reproduce>
-			<1>Кликнуть на кнопку Оформить заказ в карточке питомца</1>
-			<2>Заполнить поле Имя</2>
-			<3>Заполнить поле телефон</3>
-			<4>Заполнить поле E-mail</4>
-			<5>Нажать кнопку Отправить</5>
-		<Steps_to_reproduce>
-        <Actual_result>Кнопка “Отправить” в форме заказа питомца не реагирует на клик.</Actual_result>
-		<Expected_result>Пользователь перенаправляется на страницу подтверждения заказа. Есть сообщение, что заказ №#### отправлен, менеджер с вами свяжется в ближайшее время.</Expected_result>
-	</Description>
-	<Attachmen>https://drive.google.com/...</Attachmen>
-  </tree>
-</root>
-
- 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
- 38. Синхронизировать внешний и локальный репозиторий XML
-git pull
+| 36  | На веб интерфейсе модифицировать файл *bug_report.xml*, добавить баг репорт в формате XML.          |  [bug_report.xml...](#36-На-веб-интерфейсе-модифицировать-файл-bug_reportxml)|      | 
+| 37  | Сделать Commit changes (сохранить) изменения на веб интерфейсе          |         | 
+| 38  | Синхронизировать внешний и локальный репозиторий XML          |  `git pull`       | 
 
 
-TXT
- 1. Создать внешний репозиторий c названием TXT.  
-На сайте GitHub создаем новый репозиторий через New - Create Repository. 
+## TXT
+| №  | Task  | Answer |
+|:------------- |:---------------| :-------------|
+| 39 | Создать внешний репозиторий c названием TXT.          | На сайте GitHub создаем новый репозиторий через New - Create Repository        |
+| 40 | Клонировать репозиторий TXT на локальный компьютер.          | Копируем URL в <>Code по HTTPS протоколу.<br>Заходим через консоль GitBash в локальную папку: cd “g:/My Drive/QA/Ksendzov_Cours/git_intro”.<br>`git clone https://github.com/Solotona/TXT.git`        |
+| 41 | Внутри локального TXT создать файл “new.txt”.          | `nano new.txt`<br>Ctrl+O - сохранение, Ctrl+X - выход        |
+| 42 | Добавить файл под гит          | `git add new.txt`        |
+| 43  | Закоммитить файл          | `git commit -m "comments"`        |
+| 26  | Отправить файл на внешний GitHub репозиторий          | `git push`        |
+| 27  | Отредактировать содержимое файла *“new.xml”* - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.          | `cat >> new.xml` <br> [new.xml...](#27-Отредактировать-содержимое-файла-newxml)|
+| 28  | Отправить изменения на внешний репозиторий          | `git add ‘new.xml’ && git commit -m ’new file’ && git push`        | 
+| 29  | Создать файл *preferences.xml*          | `cat > preferences.xml`        | 
+| 30 | В файл *preferences.xml* добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML          | `cat >> preferences.xml`<br> [preferences.xml...](#30-В-файл-preferencesxml-добавить-информацию-о-своих-предпочтениях)|
+| 31  | Создать файл *skills.xml* добавить информацию о скиллах, которые будут изучены на курсе в формате XML | `nano skills.xml`    <?xml version="1.0" encoding="windows-1251"><br><SKILLS>API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна</SKILLS>        | 
+| 32  | Сделать коммит в одну строку          | `git add . && git commit -m "comment"`        | 
+| 33  | Отправить сразу 2 файла на внешний репозиторий          | `git add ./`        | 
+| 34  | На веб интерфейсе создать файл *bug_report.xml*          |         | 
+| 35  | Сделать Commit changes (сохранить) изменения на веб интерфейсе          |         | 
+| 36  | На веб интерфейсе модифицировать файл *bug_report.xml*, добавить баг репорт в формате XML.          |  [bug_report.xml...](#36-На-веб-интерфейсе-модифицировать-файл-bug_reportxml)|      | 
+| 37  | Сделать Commit changes (сохранить) изменения на веб интерфейсе          |         | 
+| 38  | Синхронизировать внешний и локальный репозиторий XML          |  `git pull`       | 
 
- 2. Клонировать репозиторий TXT на локальный компьютер. 
-Копируем URL в <>Code по HTTPS протоколу. Заходим через консоль GitBash в локальную папку: cd “g:/My Drive/QA/Ksendzov_Cours/git_intro”.
-git clone https://github.com/Solotona/TXT.git
 
- 3. Внутри локального TXT создать файл “new.txt”
-nano new.txt (Ctrl+O - сохранение, Ctrl+X - выход)
-
- 4. Добавить файл под гит.
-git add new.txt
-
- 5. Закоммитить файл.
-git commit -m “comment”
 
  6. Отправить файл на внешний GitHub репозиторий.
 git push
