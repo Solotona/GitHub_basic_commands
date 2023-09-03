@@ -21,39 +21,12 @@
 | 11 | Отправить изменения на внешний репозиторий          | `git commit -a -m “new.json” && git push`        |
 | 12 | Создать файл preferences.json          | `cat > preferences.json`        |
 | 13 | В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON          | `nano preferences.json`<br>{<br>	"favoriteFilm": "Sea Inside",<br>	"favoriteSeries": "Friends",<br>	"favoriteFood": ["Khinkali", "Pho Bo", "soup", "pasta"],<br>	"favoriteSeason": ["spring", "summer"],<br>	"Country": "the USA"<br>}<br>Ctrl+O, Ctrl+X      |
-| 14 | Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON          | `cat > skills.json`<br> {<br>"Skills": [<br> "API через Postman", "сниффинг http web трафика через Charles и Fiddler", "Dev Tools веб браузеров, командная строка", "основы SQL техники тест-дизайна"<br>]<br>}     |
+| 14 | Создать файл skills.json добавить информацию о скиллах, которые будут изучены на курсе в формате JSON          | `cat > skills.json`<br> {<br>"Skills": ["API через Postman", "сниффинг http web трафика через Charles и Fiddler", "Dev Tools веб браузеров, командная строка", "основы SQL техники тест-дизайна"]<br>}     |
 | 15 | Отправить сразу 2 файла на внешний репозиторий          | `git add ./`        |
 | 16 | На веб интерфейсе создать файл bug_report.json          |         |
 | 17 | Сделать Commit changes (сохранить) изменения на веб интерфейсе.          |        |
-
- 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-{
-	"id": "BR-1",
-	"Summary": "Кнопка Отправить не реагирует на клик на странице оформления заказа.",
-	"Project": "www.test.pitomets.com",
-	"Version": "5.1",
-	"Severity": "Critical",
-	"Priority": "Middle",
-	"Status": "Open",
-	"Author": "Tokareva Natalia",
-	"Assigned To": "Lead Developer",
-	"Description": {
-		"Precondition": {
-			"1": "Зайти на сайт www.test.pitomets.com",
-			"2": "Перейти на страницу Питомцы"
-		},
-		"Environment": "Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64)",
-		"Steps to reproduce": {
-			"1": "Кликнуть на кнопку Оформить заказ в карточке питомца",
-			"2": "Заполнить поле Имя",
-			"3": "Заполнить поле телефон",
-			"4": "Заполнить поле E-mail",
-			"5": "Нажать кнопку Отправить"
-		},
-		"Actual result": "Кнопка “Отправить” в форме заказа питомца не реагирует на клик.",
-		"Expected result": "Пользователь перенаправляется на страницу подтверждения заказа. Есть сообщение, что заказ №#### отправлен, менеджер с вами свяжется в ближайшее время"
-	},
-	"Attachment": "https://drive.google.com/..."
+| 18 | На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.          | (See more...) [18]     |
+ rive.google.com/..."
 }
 
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
@@ -242,6 +215,35 @@ Attachment: https://drive.google.com/...
  18. Синхронизировать внешний и локальный репозиторий TXT
 git pull
 
+
+## 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+{
+	"id": "BR-1",
+	"Summary": "Кнопка Отправить не реагирует на клик на странице оформления заказа.",
+	"Project": "www.test.pitomets.com",
+	"Version": "5.1",
+	"Severity": "Critical",
+	"Priority": "Middle",
+	"Status": "Open",
+	"Author": "Tokareva Natalia",
+	"Assigned To": "Lead Developer",
+	"Description": {
+		"Precondition": {
+			"1": "Зайти на сайт www.test.pitomets.com",
+			"2": "Перейти на страницу Питомцы"
+		},
+		"Environment": "Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64)",
+		"Steps to reproduce": {
+			"1": "Кликнуть на кнопку Оформить заказ в карточке питомца",
+			"2": "Заполнить поле Имя",
+			"3": "Заполнить поле телефон",
+			"4": "Заполнить поле E-mail",
+			"5": "Нажать кнопку Отправить"
+		},
+		"Actual result": "Кнопка “Отправить” в форме заказа питомца не реагирует на клик.",
+		"Expected result": "Пользователь перенаправляется на страницу подтверждения заказа. Есть сообщение, что заказ №#### отправлен, менеджер с вами свяжется в ближайшее время"
+	},
+	"Attachment": "https://d
 
 Из курса Ксендзова Вадима:
 Рекомендует создавать репозитории прямо на сайте GitHub. 
