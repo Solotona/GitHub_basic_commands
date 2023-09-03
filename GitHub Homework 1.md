@@ -42,25 +42,11 @@
 | 27  | Отредактировать содержимое файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.          | `cat >> new.xml` <br> [See more...](#27-Отредактировать-содержимое-файла-newxml)|
 | 28  | Отправить изменения на внешний репозиторий          | `git add ‘new.xml’ && git commit -m ’new file’ && git push`        | 
 | 29  | Создать файл preferences.xml          | `cat > preferences.xml`        | 
+| 30 | В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML          | `cat >> preferences.xml`<br> [See more...](#30-В-файл-preferencesxml-добавить-информацию-о-своих-предпочтениях)|
+| 31  | Создать файл skills.xml добавить информацию о скиллах, которые будут изучены на курсе в формате XML
+nano skills.xml         | <?xml version="1.0" encoding="windows-1251"><br><SKILLS>API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна</SKILLS>        | 
+| 32  | Сделать коммит в одну строку          | `git add . && git commit -m "comment"`        | 
 
- 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате XML.
-cat >> preferences.xml
-<?xml version="1.0"?>
-<CAT>
-  <FAVORITEFILM>Sea Inside</FAVORITEFILM>
-  <FAVORITESERIES>Friends</FAVORITESERIES>
-  <FAVORITEFOOD>Khinkali, Pho Bo soup, pasta,</FAVORITEFOOD>
-  <FAVORITESEASON>spring, summer</FAVORITESEASON>
-  <FAVORITECOUNTRY>USA</FAVORITECOUNTRY>
-</CAT>
-
- 31. Создать файл skills.xml добавить информацию о скиллах, которые будут изучены на курсе в формате XML
-nano skills.xml
-<?xml version="1.0" encoding="windows-1251">
-<SKILLS>API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна</SKILLS>
-
- 32. Сделать коммит в одну строку.
-git add . && git commit -m "comment"
 
  33. Отправить сразу 2 файла на внешний репозиторий
 git add ./
@@ -222,12 +208,12 @@ git pull
 	"Attachment": "https://d rive.google.com/..."
 }
 ```
-[Back](JSON)
+[Back](#JSON)
 
 ## 27. Отредактировать содержимое файла “new.xml”
 написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
-```xml
 cat >> new.xml
+```xml
 <?xml version="1.0"?>
 <CAT>
   <NAME>Natalia</NAME>
@@ -236,7 +222,23 @@ cat >> new.xml
   <SALARYEXPECTED>500 USD</SALARYEXPECTED>
 </CAT>
 ```
-[Back](XML) 
+[Back](#XML) 
+
+## 30. В файл preferences.xml добавить информацию о своих предпочтениях
+(Любимый фильм, любимый сериал, любимая еда, любимое время года, страна которую хотели бы посетить) в формате XML.
+cat >> preferences.xml
+```xml
+<?xml version="1.0"?>
+<CAT>
+  <FAVORITEFILM>Sea Inside</FAVORITEFILM>
+  <FAVORITESERIES>Friends</FAVORITESERIES>
+  <FAVORITEFOOD>Khinkali, Pho Bo soup, pasta,</FAVORITEFOOD>
+  <FAVORITESEASON>spring, summer</FAVORITESEASON>
+  <FAVORITECOUNTRY>USA</FAVORITECOUNTRY>
+</CAT>
+```
+[Back](#XML)
+
 # ------ Лекция ------
 Рекомендует создавать репозитории прямо на сайте GitHub. 
 Заходим на главную страницу в виде дашборда. Слева меню - New Repositories - Называем.
