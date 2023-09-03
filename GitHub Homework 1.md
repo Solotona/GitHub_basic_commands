@@ -43,17 +43,12 @@
 | 28  | Отправить изменения на внешний репозиторий          | `git add ‘new.xml’ && git commit -m ’new file’ && git push`        | 
 | 29  | Создать файл preferences.xml          | `cat > preferences.xml`        | 
 | 30 | В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML          | `cat >> preferences.xml`<br> [See more...](#30-В-файл-preferencesxml-добавить-информацию-о-своих-предпочтениях)|
-| 31  | Создать файл skills.xml добавить информацию о скиллах, которые будут изучены на курсе в формате XML
-nano skills.xml         | <?xml version="1.0" encoding="windows-1251"><br><SKILLS>API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна</SKILLS>        | 
+| 31  | Создать файл skills.xml добавить информацию о скиллах, которые будут изучены на курсе в формате XML | `nano skills.xml`    <?xml version="1.0" encoding="windows-1251"><br><SKILLS>API через Postman, сниффинг http web трафика через Charles и Fiddler, Dev Tools веб браузеров, командная строка, основы SQL техники тест-дизайна</SKILLS>        | 
 | 32  | Сделать коммит в одну строку          | `git add . && git commit -m "comment"`        | 
-
-
- 33. Отправить сразу 2 файла на внешний репозиторий
-git add ./
-
- 34. На веб интерфейсе создать файл bug_report.xml
- 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе
-
+| 33  | Отправить сразу 2 файла на внешний репозиторий          | `git add ./`        | 
+| 34  | На веб интерфейсе создать файл bug_report.xml          |         | 
+| 35  | Сделать Commit changes (сохранить) изменения на веб интерфейсе          |         | 
+| 36  | На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.          |  [See more...](#36-На-веб-интерфейсе-модифицировать-файл-bug_reportxml)|      | 
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
 <?xml version="1.0" encoding="windows-1251"?>
 <root>
@@ -236,6 +231,43 @@ cat >> preferences.xml
   <FAVORITESEASON>spring, summer</FAVORITESEASON>
   <FAVORITECOUNTRY>USA</FAVORITECOUNTRY>
 </CAT>
+```
+[Back](#XML)
+
+## 36. На веб интерфейсе модифицировать файл bug_report.xml
+добавить баг репорт в формате XML.
+```xml
+<?xml version="1.0" encoding="windows-1251"?>
+<root>
+  <tree>
+   	<ID>BR-1</ID>
+   	<Summary>Кнопка Отправить не реагирует на клик на странице оформления заказа.</Summary>
+   	<Project>www.test.pitomets.com</Project>
+	<Version>5.1</Version>
+	<Severity>Critical</Severity>
+	<Priority>Middle</Priority>
+	<Status>Open</Status>
+	<Author>Tokareva Natalia</Author>
+	<AssignedTo>Lead Developer</AssignedTo>
+	<Description>
+		<Precondition>
+			<1>Зайти на сайт www.test.pitomets.com</1>
+			<2>Перейти на страницу Питомцы</2>
+		</Precondition>
+		<Environment>Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64)</Environment>
+		<Steps_to_reproduce>
+			<1>Кликнуть на кнопку Оформить заказ в карточке питомца</1>
+			<2>Заполнить поле Имя</2>
+			<3>Заполнить поле телефон</3>
+			<4>Заполнить поле E-mail</4>
+			<5>Нажать кнопку Отправить</5>
+		<Steps_to_reproduce>
+        <Actual_result>Кнопка “Отправить” в форме заказа питомца не реагирует на клик.</Actual_result>
+		<Expected_result>Пользователь перенаправляется на страницу подтверждения заказа. Есть сообщение, что заказ №#### отправлен, менеджер с вами свяжется в ближайшее время.</Expected_result>
+	</Description>
+	<Attachmen>https://drive.google.com/...</Attachmen>
+  </tree>
+</root>
 ```
 [Back](#XML)
 
