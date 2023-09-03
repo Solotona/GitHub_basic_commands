@@ -1,4 +1,4 @@
-<span style="color:blue">GitHub Homework 2</span>
+!!GitHub Homework 2!!
 <span style="color:blue"> Этот текст голубой.</span>
 <span style="color:red"> Этот текст красный.</span>
 
