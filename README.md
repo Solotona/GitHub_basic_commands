@@ -1,7 +1,7 @@
 ## GitHub Homework 2
 | № | Question | Answer |
 |---|:--------:|:------:|
-| 1 | На локальном репозитории сделать ветки для: Postman Jmeter CheckLists Bug_Reports  SQL Charles Mobile_testing        | 1      |
+| 1 | На локальном репозитории сделать ветки для: Postman <br> Jmeter <br> CheckLists Bug_Reports  SQL Charles Mobile_testing        | 1      |
 | 2 | 2        | 2      |
 | 3 | 3        | 3      |
 1. На локальном репозитории сделать ветки для:
