@@ -1,36 +1,16 @@
 ## GitHub Homework 2
 | № | Question | Answer |
 |---|:---------|:-------|
-| 1 | На локальном репозитории сделать ветки для: <br>Postman<br>Jmeter<br>CheckLists<br>Bug_Reports<br> SQL<br>Charles<br>Mobile_testing        | **git branch**      |
-| 3 | Запушить все ветки на внешний репозиторий        | 2      |**git push -u origin Postman**
-| 4 | В ветке Bug_Reports сделать текстовый документ со структурой баг репорта        | **git checkout Bug_report && cat > Bug_Report.txt**      |
-| 5 | В ветке Bug_Reports сделать текстовый документ со структурой баг репорта        | **git add .<br>git commit -m “comment”<br>git push -u origin Bug_report**     |
-| 6 | Вмержить ветку Bag Reports в Main        | **git checkout main<br>git merge Bug_Report**    |
-| 7 | Запушить main на внешний репозиторий        | **git push -u origin applePay<br>Затем во внешнем репозитории идем в альтернативную ветку и делаем Pull Request, чтобы смержить альтернативную ветку с main**|
-
-
-
-
-8. В ветке CheckLists набросать структуру чек листа.
-**git checkout CheckLists
-cat > Checklist.txt
-1 Список   проверок
-2 Статус**
-
-9. Запушить структуру на внешний репозиторий
-**git add Checklist.txt
-git commit -m “Checklist.txt”**
-
-
-10. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-**На github идем в альтернативную ветку и делаем Pull Request, чтобы смержить альтернативную ветку с main**
-
-11. Синхронизировать Внешнюю и Локальную ветки Main
-**git checkout main
-git fetch
-git pull**
-
-
+| 1 | На локальном репозитории сделать ветки для: <br>*Postman*<br>*Jmeter*<br>*CheckLists*<br>*Bug_Reports*<br>*SQL*<br>*Charles*<br>*Mobile_testing*| **git branch**      |
+| 2 | Запушить все ветки на внешний репозиторий        | 2      |**git push -u origin Postman**
+| 3 | В ветке *Bug_Reports* сделать текстовый документ со структурой баг репорта        | **git checkout Bug_report && cat > Bug_Report.txt**      |
+| 4 | В ветке *Bug_Reports* сделать текстовый документ со структурой баг репорта        | **git add .<br>git commit -m “comment”<br>git push -u origin Bug_report**     |
+| 5 | Вмержить ветку *Bag Reports* в *Main*        | **git checkout main<br>git merge Bug_Report**    |
+| 6 | Запушить *Main* на внешний репозиторий        | **git push -u origin applePay<br>Затем во внешнем репозитории идем в альтернативную ветку и делаем Pull Request, чтобы смержить альтернативную ветку с main**|
+| 7 | В ветке *CheckLists* набросать структуру чек листа       |  **git checkout CheckLists<br>cat > Checklist.txt<br>1 Список   проверок<br>2 Статус**    |
+| 8 | Запушить структуру на внешний репозиторий       | **git add Checklist.txt<br>git commit -m “Checklist.txt”**|
+| 9 | На внешнем репозитории сделать Pull Request ветки CheckLists в main       |  **На github идем в альтернативную ветку и делаем Pull Request, чтобы смержить альтернативную ветку с main**    |
+| 10 | Синхронизировать Внешнюю и Локальную ветки Main       | **git checkout main<br>git fetch<br>git pull**     |
 
 ## **==== Описание команд =====**
 
