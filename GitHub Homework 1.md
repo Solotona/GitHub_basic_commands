@@ -25,7 +25,7 @@
 | 15 | Отправить сразу 2 файла на внешний репозиторий          | `git add ./`        |
 | 16 | На веб интерфейсе создать файл bug_report.json          |         |
 | 17 | Сделать Commit changes (сохранить) изменения на веб интерфейсе.          |        |
-| 18 | На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.          | [See more...](#18)     |
+| 18 | На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.          | [See more...](#18-На-веб-интерфейсе-модифицировать-файл-bug_reportjson-добавить-баг-репорт-в-формате-JSON)     |
 
 
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
@@ -215,37 +215,36 @@ Attachment: https://drive.google.com/...
 git pull
 
 
-## 18
-На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+## 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 ```json
 {
 	"id": "BR-1",
 	"Summary": "Кнопка Отправить не реагирует на клик на странице оформления заказа.",
-	"Project": "www.test.pitomets.com",<br>
-	"Version": "5.1",<br>
-	"Severity": "Critical",<br>
-	"Priority": "Middle",<br>
-	"Status": "Open",<br>
-	"Author": "Tokareva Natalia",<br>
-	"Assigned To": "Lead Developer",<br>
-	"Description": {<br>
+	"Project": "www.test.pitomets.com",
+	"Version": "5.1",
+	"Severity": "Critical",
+	"Priority": "Middle",
+	"Status": "Open",
+	"Author": "Tokareva Natalia",
+	"Assigned To": "Lead Developer",
+	"Description": 
 		"Precondition": {<br>
-			"1": "Зайти на сайт www.test.pitomets.com",<br>
-			"2": "Перейти на страницу Питомцы"<br>
+			"1": "Зайти на сайт www.test.pitomets.com",
+			"2": "Перейти на страницу Питомцы"
 		},<br>
-		"Environment": "Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64)",<br>
-		"Steps to reproduce": {<br>
-			"1": "Кликнуть на кнопку Оформить заказ в карточке питомца",<br>
-			"2": "Заполнить поле Имя",<br>
-			"3": "Заполнить поле телефон",<br>
-			"4": "Заполнить поле E-mail",<br>
-			"5": "Нажать кнопку Отправить"<br>
-		},<br>
-		"Actual result": "Кнопка “Отправить” в форме заказа питомца не реагирует на клик.",<br>
-		"Expected result": "Пользователь перенаправляется на страницу подтверждения заказа. Есть сообщение, что заказ №#### отправлен, менеджер с вами свяжется в ближайшее время"<br>
-	},<br>
-	"Attachment": "https://d rive.google.com/..."<br>
-}<br>
+		"Environment": "Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64)",
+		"Steps to reproduce": {
+			"1": "Кликнуть на кнопку Оформить заказ в карточке питомца",
+			"2": "Заполнить поле Имя",
+			"3": "Заполнить поле телефон",
+			"4": "Заполнить поле E-mail",
+			"5": "Нажать кнопку Отправить"
+		},
+		"Actual result": "Кнопка “Отправить” в форме заказа питомца не реагирует на клик.",
+		"Expected result": "Пользователь перенаправляется на страницу подтверждения заказа. Есть сообщение, что заказ №#### отправлен, менеджер с вами свяжется в ближайшее время"
+	},
+	"Attachment": "https://d rive.google.com/..."
+}
 ```
 
 Из курса Ксендзова Вадима:
