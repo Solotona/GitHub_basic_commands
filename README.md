@@ -1,4 +1,7 @@
 <span style="color:blue">GitHub Homework 2</span>
+<span style="color:blue"> Этот текст голубой.</span>
+<span style="color:red"> Этот текст красный.</span>
+
 | № | Question | Answer |
 |---|:---------|:-------|
 | 1 | На локальном репозитории сделать ветки для: <br>*Postman*<br>*Jmeter*<br>*CheckLists*<br>*Bug_Reports*<br>*SQL*<br>*Charles*<br>*Mobile_testing*| **git branch**      |
