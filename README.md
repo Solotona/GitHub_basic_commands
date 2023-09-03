@@ -4,7 +4,9 @@
 
 | № | Question | Answer |
 |---|:---------|:-------|
-| 1 | На локальном репозитории сделать ветки для: <br>*Postman*<br>*Jmeter*<br>*CheckLists*<br>*Bug_Reports*<br>*SQL*<br>*Charles*<br>*Mobile_testing*| `git branch`      |
+| 1 | На локальном репозитории сделать ветки для: <br>*Postman*<br>*Jmeter*<br>*CheckLists*<br>*Bug_Reports*<br>*SQL*<br>*Charles*<br>*Mobile_testing*|\```bush
+git branch
+\```      |
 | 2 | Запушить все ветки на внешний репозиторий        | **git push -u origin Postman**<br>[▷ Read about](#git-push)      |
 | 3 | В ветке *Bug_Reports* сделать текстовый документ со структурой баг репорта        | **git checkout Bug_report && cat > Bug_Report.txt**      |
 | 4 | В ветке *Bug_Reports* сделать текстовый документ со структурой баг репорта        | **git add .<br>git commit -m “comment”<br>git push -u origin Bug_report**     |
