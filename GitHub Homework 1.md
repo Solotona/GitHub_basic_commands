@@ -1,4 +1,4 @@
-# GITHub Homework 1
+# github_Homework_1
 
 Для выполнения задания у вас должен быть установлен для Windows - Git Bash. Создан аккаунт в GitHub. Все шаги сценария выполняйте в терминале Git Bash, Terminal, в папке под гитом.
 
