@@ -228,10 +228,10 @@ git pull
 	"Author": "Tokareva Natalia",
 	"Assigned To": "Lead Developer",
 	"Description": 
-		"Precondition": {<br>
+		"Precondition": {
 			"1": "Зайти на сайт www.test.pitomets.com",
 			"2": "Перейти на страницу Питомцы"
-		},<br>
+		},
 		"Environment": "Windows 11 Pro, Google Chrome v: 94.0.4606.71 (x86_64)",
 		"Steps to reproduce": {
 			"1": "Кликнуть на кнопку Оформить заказ в карточке питомца",
