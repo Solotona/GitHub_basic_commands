@@ -1,37 +1,14 @@
 ## GitHub Homework 2
 | № | Question | Answer |
 |---|:---------|:-------|
-| 1 | На локальном репозитории сделать ветки для: <br>Postman<br>Jmeter<br>CheckLists<br>Bug_Reports<br> SQL<br>Charles<br>Mobile_testing        | 1      |
-| 2 | 2        | 2      |
-| 3 | 3        | 3      |
-1. На локальном репозитории сделать ветки для:
-Postman
-Jmeter
-CheckLists
-Bug_Reports
-SQL
-Charles
-Mobile_testing
-**git branch**
+| 1 | На локальном репозитории сделать ветки для: <br>Postman<br>Jmeter<br>CheckLists<br>Bug_Reports<br> SQL<br>Charles<br>Mobile_testing        | **git branch**      |
+| 3 | Запушить все ветки на внешний репозиторий        | 2      |**git push -u origin Postman**
+| 4 | В ветке Bug_Reports сделать текстовый документ со структурой баг репорта        | **git checkout Bug_report && cat > Bug_Report.txt**      |
+| 5 | В ветке Bug_Reports сделать текстовый документ со структурой баг репорта        | **git add .<br>git commit -m “comment”<br>git push -u origin Bug_report**     |
+| 6 | Вмержить ветку Bag Reports в Main        | **git checkout main<br>git merge Bug_Report**    |
+| 7 | Запушить main на внешний репозиторий        | **git push -u origin applePay<br>Затем во внешнем репозитории идем в альтернативную ветку и делаем Pull Request, чтобы смержить альтернативную ветку с main**|
 
-3. Запушить все ветки на внешний репозиторий
-**git push -u origin Postman**
 
-4. В ветке Bug_Reports сделать текстовый документ со структурой баг репорта
-**git checkout Bug_report && cat > Bug_Report.txt**
-
-5. Запушить структуру багрепорта на внешний репозиторий
-**git add .
-git commit -m “comment”
-git push -u origin Bug_report**
-
-6. Вмержить ветку Bag Reports в Main
-**git checkout main
-git merge Bug_Report**
-
-7. Запушить main на внешний репозиторий.
-**git push -u origin applePay
-Затем во внешнем репозитории идем в альтернативную ветку и делаем Pull Request, чтобы смержить альтернативную ветку с main**
 
 
 8. В ветке CheckLists набросать структуру чек листа.
